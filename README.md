@@ -9,8 +9,12 @@ Book management, member management (Student/Faculty), issue/return,
 fines (Rs. 5/day after 14 days), history, popular books, recommendations.
 
 ## How to compile and run
-g++ -std=c++17 main.cpp -o library
+Using Clang (macOS) or g++ (Linux/Windows), with C++17:
+
+clang++ -std=c++17 LibraryManagementSystem.cpp -o library
 ./library
+
+(or: g++ -std=c++17 LibraryManagementSystem.cpp -o library)
 
 ## Data files
 books.txt, members.txt, transactions.txt are created in the folder where you run the program.
